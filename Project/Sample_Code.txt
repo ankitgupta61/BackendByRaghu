@@ -1,0 +1,1068 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <title>My First Webpage</title>
+        <link rel="icon" href="favicon.png" />
+        <meta name="keywords" content="Ecommerce, Online Shopping" />
+        <meta name="description" content="We are the Online Mega Store" />
+        <meta name="author" content="Raghu Anand" />
+        <meta name="url" content="www.flipitup.com" />
+        <meta name="company" content="flipitup private limited" />
+        <meta name="contributors" content="Vimal, Suresh" />
+        <meta name="csslines" content="100" />
+    </head>
+    <body>
+        <p style="color:red; font-size: 30px;">Hello I am from Mars Planet</p>
+        <h1 style="font-size: 60px;"><i>Hello 1</i></h1>
+        <h2>Hello 2</h2>
+        <center>
+            <h3 id="ra_One">Hello 3 - ID</h3>
+        </center>
+        <h4 id="ra_Two">Hello 4 - ID</h4>
+        <h5 class="One Two">Hello 5, 2 colors</h5>
+        <h5 class="Two">Hello 5</h5>
+        <h6 class="One star">Hello 6</h6>
+        <h6 class="Two">Hello Hru</h6>
+        <hr />
+        <p>Hey I am Fine</p>
+        <p><b>Hey I am Fine</b></p>
+        <p><i>Hey I am Fine</i></p>
+        <p><del>Hey I am Fine</del></p>
+        <p style="color:red" class="star"><mark>Hey I am Fine</mark></p>
+        <p><ins>Hey I am Fine</ins></p>
+        <em>Hey I am Fine</em>
+        <br />
+        <u>Hey I am Fine</u>
+        <br />
+        <strong>Hey I am Fine</strong>
+        <br/>
+        <table border="1px">
+        <tr>
+                <th class="Two star">Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <br/>
+        <ol type="I" start="5">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Custard</li>
+        </ol>
+        <hr />
+        <ul type="square">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Custard</li>
+        </ul>
+        <hr />
+        <dl>
+            <dt>Bangalore</dt>
+            <dd>Capital City of Karnataka</dd>
+            <dt>Mumbai</dt>
+            <dd>Capital City of Maharastra</dd>
+            <dd>Capital City of Maharastra</dd>
+        </dl>
+        <p>
+            <b>
+                <i>I am italic</i>
+                <u>I am Underline</u>
+            </b>
+        </p>
+    </body>
+</html>
+
+
+
+========================css file code=============
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.One{color: orange;}
+.Two{color: blue;}
+.star{font-size: 40px;}
+#ra_One{background-color: brown;}
+#ra_Two{background-color: aqua;}
+dt,dd{color: chartreuse;}
+ol li{color: cornflowerblue;}
+p b u{color:crimson;}
+
+//
+
+<body bgcolor="">
+        <div class="header">
+
+        </div>
+        <div class="container">
+            <p class="p1">Hey I am from planet <span class="s1">Mars</span></p>
+        </div>
+        <div class="footer">
+
+        </div>
+    </body>
+
+    body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+}
+.p1{
+    color: red;
+}
+.s1{
+    color: blue;
+}
+
+=================== 31st May 2022====================
+
+        <nav>
+            <header class="header">
+
+            </header>
+        </nav>
+        <main>
+            <aside class="aside">
+
+            </aside>
+            <section class="sone">
+
+            </section>
+            <section class="stwo">
+
+            </section>
+        </main>
+        <footer class="footer">
+
+        </footer>
+        <div class="example">
+            <div class="e1"></div>
+            <div class="e2"></div>
+            <div class="e3"></div>
+        </div>
+            <video width="300px" height="200px" controls src="location" type="video/mp4">
+            </video>
+
+            <audio width="" height="" controls>
+                <source src="location" type="audio/mp3" />
+            </audio>
+
+        <br/>
+        <br />
+        <form>
+            <input type="text" required placeholder="Enter your Text" value="Pluto"/>
+            <input type="button" value="submit" />
+            <br/>
+            <input type="number" disabled />
+            <input type="date" />
+            <input type="month" />
+            <input type="password" />
+            <input type="image" src="" alt="Alternate"/>
+            <input type="color" />
+            <input type="file" />
+            <br />
+            <br/>
+            <p>Select any one </p>
+            <input type="radio" name="fruits"/> Apple
+            <input type="radio" name="fruits"/> Orange
+            <br/>
+            <label>Select any one </label>
+            <input type="checkbox" name="fruits" /> Apple
+            <input type="checkbox" name="fruits"/> Orange
+            <input type="checkbox" name="fruits"/> Banana
+            <input type="checkbox" name="fruits"/> Pineapple
+            <label>0</label>
+            <input type="range" min="0" max="10" />
+            <label>10</label>
+            <!-- <input type="" -->
+        </form>
+        <br/>
+        <select>
+            <option>Select Any One</option>
+            <option>Apple</option>
+            <option>Orange</option>
+            <option>Banana</option>
+            <option>PineApple</option>
+            <option>Custard Apple</option>
+        </select>
+        <br/>
+        <br/>
+        <br/>
+        <a href="https://www.flipkart.com" target="_blank">Click Here to Visit Google Page</a>
+        <a href="#">Click Here to Visit Google Page</a>
+        <br/>
+        <br/>
+        <button onclick="abc()">ClickHere</button>
+        <br/>
+        <br/>
+        <br/>
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+main{
+    width: 100%;
+    height: 450px;
+}
+.aside{
+    width: 20%;
+    height: 450px;
+    background-color: brown;
+    float: left;
+}
+.sone{
+    width: 80%;
+    height: 225px;
+    background-color: bisque;
+    float: right;
+}
+.stwo{
+    width: 80%;
+    height: 225px;
+    background-color: chocolate;
+    float: right;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+}
+.example{
+    width:100%;
+    height:100px;
+    background-color: bisque;
+}
+.e1{
+    width:30%;
+    height: inherit;
+    background-color: cornflowerblue;
+    float: left;
+}
+.e2{
+    width:30%;
+    height: inherit;
+    background-color:darkcyan;
+    float:left;
+}
+.e3{
+    width:30%;
+    height: inherit;
+    background-color:crimson;
+    float:right;
+}
+
+02/06/2022
+
+<p>Hello I am From India</p>
+        <p class="font">Hello I am From India</p>
+
+div{
+    width: 100%;
+    height: 500px;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    /* scroll; */
+    /* margin: 20px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    /* border-width: 10px;
+    border-color: red;
+    border-style: solid; */
+    border: 10px red solid;
+    padding: 15px;
+}
+.font{
+    color:red;
+    font-family: Roboto, 'system-ui', 'sans-serif';
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+.one{
+    width: 100%;
+    height:100px;
+    background-color: red;
+    position: absolute;
+    top:110px;
+}
+.two{
+    width: 100%;
+    height:150px;
+    background-color: yellow;
+    position: absolute;
+    top:10px;
+}
+
+        <div class="one"></div>
+        <div class="two"></div>
+
+//04/06/2022
+*{
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height:500px;
+    background-color: yellow;
+}
+@media only screen and (max-width: 800px) and (min-width: 600px){
+    body{
+        background-color: red;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 800px){
+    body{
+        background-color: green;
+    }
+}
+
+function abc(){
+    alert('Jupiter');
+}
+function def(){
+
+}
+
+======================07/06/2022========================
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <title>SBI Clone Website</title>
+        <link rel="icon" href="sbi_favicon.png" />
+    </head>
+    <body>
+            <div class="container">
+                <div class="logo">
+                    <a href="https://onlinesbi.com">
+                        <img src="sbi_logo.png" class="llogo" alt="logo" />
+                    </a>
+                    <img src="sbi_logo.png" class="rlogo" alt="logo" />
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                        <li>Services</li>
+                        <li>Mobile Banking</li>
+                    </ul>
+                    <button>Hindi</button>
+                </div>
+                <div class="info">
+                    <center>
+                        <p>dsgfsgufgsdgfsdfsdfsdfsdgsg</p>
+                        <p>jhrtjkjthtrhyeryeryewrdgsdhtujrturtuuytytryey</p>
+                    </center>
+                </div>
+                <div class="sub_container">
+                    <div class="personal">
+                        <center>
+                            <img src="" alt="" />
+                            <h3><a href="">PERSONAL BANKING</a></h1>
+                            <a href="">Login >></a>
+                        </center>
+                        <ul>
+                            <li>Services</li>
+                            <li>Mobile Banking</li>
+                            <li>Services</li>
+                            <li>Mobile Banking</li>
+                        </ul>
+                        <p>gsdfgsdfgsdkgfgsd</p>
+                    </div>
+                    <div class="corporate"></div>
+                </div>
+                <div class="news">
+                    <marquee>sduihsehfhshfhsdhfhds</marquee>
+                </div>
+                <div class="links">
+                    <!-- table-> 1 row- 4 col - each col - ul,4li -->
+                    <!-- 4 sub div=> ul and 4 li -->
+                    <center>
+                    <button></button>
+                </center>
+                </div>
+                <div class="adimage">
+                    <img src="" />
+                </div>
+                <div class="footer"></div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+====
+*{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width:100%;
+    height:auto;
+    background-image: url(body_bg.jpg);
+}
+.container{
+    width: 85%;
+    height: 1072px;
+    margin: 0% 7.5%;
+    background-color: red;
+}
+.logo{
+    width: 100%;
+    height: 92px;
+    background-color: cadetblue;
+    position: relative;
+}
+.llogo{
+    position:relative;
+    float:left;
+}
+.rlogo{
+    position:relative;
+    float:right;
+}
+.menu{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.menu ul{ list-style-type: none;}
+.menu li{display: inline-block; padding: 10px; border-right: 3px solid aqua;}
+.info{
+    width: 100%;
+    height: 60px;
+    background-color:azure;
+    position: relative;
+}
+.info p{
+    padding: 5px;
+}
+.sub_container{
+    width: 100%;
+    height: 275px;
+    position: relative;
+}
+.personal{
+    width: 50%;
+    height: 275px;
+    background-color: antiquewhite;
+    position: relative;
+    float:left;
+
+}
+.personal ul{ list-style-type: none;}
+.personal li{display: inline-block; padding: 10px; border-right: 3px solid aqua;}
+.corporate{
+    width: 50%;
+    height: 275px;
+    background-color: yellow;
+    position: relative;
+    float:right;
+}
+.news{
+    width: 100%;
+    height: 30px;
+    background-color: brown;
+    position: relative;
+}
+.news marquee {padding: 5px;}
+.links{
+    width: 100%;
+    height: 240px;
+    background-color:azure;
+    position: relative;
+}
+.adimage{
+    width: 100%;
+    height: 300px;
+    background-color:coral;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height: 25px;
+    background-color: brown;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+=================================================
+<div class="container">
+            <div class="box">Home</div>
+            <div class="box">Contact Us</div>
+            <div class="box">About Us</div>
+            <div class="box">Our Team</div>
+            <div class="box">Blog</div>
+            <div class="box">Login</div>
+            <div class="box">Register</div>
+         </div>
+
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(7,13.5%)
+}
+
+.box{
+    border: 5px solid green;
+    background-color: red;
+    padding: 10px;
+}
+
+        <div class="flexContainer">
+            <div class="flexBox">flexBox</div>
+            <div class="flexBox">flexBox2</div>
+            <div class="flexBox">flexBox3</div>
+            <div class="flexBox">flexBox4</div>
+            <div class="flexBox">flexBox5</div>
+            <div class="flexBox">flexBox6</div>
+            <div class="flexBox">flexBox7</div>
+        </div>
+
+        .flexContainer{
+    display: flex;
+    background-color: cadetblue;
+}
+.flexBox{
+    width: 10%;
+    height: 50px;
+    background-color: coral;
+    border: 5px solid royalblue;
+    padding: 10px;
+}
+
+21/06/2022
+
+
+
+// function abc(){
+//     if(12 < 12)
+//     {
+//         console.log(' If - True')
+//     }
+
+//     if(12 < 12)
+//     {
+//         console.log('Ifelse - True')
+//     }
+//     else{ 
+//         console.log('Ifelse - False')
+//     }
+                                
+//     if(2 > 5)                  
+//     {
+//         if(3 < 1)              
+//         {                       
+//             console.log('Nested If - True')
+//         }
+//     }
+
+//     //apple, banana, custard, mango
+//     var a = 'mango'
+//     if(a == 'apple'){
+//         console.log('Kashmir')
+//     }
+//     else if(a == 'banana'){
+//         console.log('Kerala')
+//     }
+//     else if(a == 'custard'){
+//         console.log('Tamil Nadu')
+//     }
+//     else{
+//         console.log('Andhra Pradesh')   
+//     }
+
+//     switch(a){
+//         case 'apple': console.log('Gujarat')
+//                       break
+//         case 'banana': console.log('UP')
+//                        break
+//         case 'custard': console.log('MH')
+//                         break
+//         case 'mango': console.log('Rajasthan')
+//                       break
+//         default: console.log('India')
+//     }
+//     let j = ''
+//     for(let i = 0;i < 5; i++)
+//     {
+//         j += i
+//         console.log(j)
+//     }
+//     for(let i = 1; i< 10;i+=2)
+//     {
+//         console.log(i)
+//     }
+    
+//     let xyz = "I am From Planet Jupiter"
+//     for(let a of xyz)
+//     {
+//         console.log(a)  //  character
+//         console.log(xyz.indexOf(a)) //Index Number
+//     }
+
+//     let mno = {name:"newton",location:"bangalore",instructor:"raghu"}
+//     console.log(mno)
+//     for(let b in mno)
+//     {
+//         console.log(b)  //key
+//         console.log(mno[b]) //value
+//     }
+
+//     let def = ["BMW","Audi","Benz","Volvo","Lamborghini"]
+//     def.forEach(element => {
+//         console.log(element)
+//     });
+// }
+
+function abc(){
+    var a = {
+        name : "India",
+        age : 500
+    }
+    console.log(a)
+    console.log(a.name)
+    console.log(a.age)
+    const b = {
+        name : "India",
+        age : 500
+    }
+    //for in implement here
+    b.name = "Russia"
+    console.log(b)
+    let c = [
+        {name: "India", age: 500},
+        {name: "Russia", age: 300},
+        {name: "Ukraine", age: 200}
+    ]
+    //for of implement here
+    console.log(c)
+    console.log("Hey I am from Mars")
+    c[2].name = "Ukrainee"
+    console.log(c)
+}
+
+23/06/2022
+
+function abc(){
+    console.log('Hey I am a single Click')
+}
+
+function def(){
+    console.log('Hey I am a Double Click')
+}
+
+function xyz(){
+    console.log(document.getElementById("myId").value)
+}
+
+function a(){
+    console.log('Mouse Entered')
+    document.getElementById("myId2").style.backgroundColor = "red"
+}
+
+function b(){
+    console.log('Mouse Left')
+    document.getElementById("myId2").style.backgroundColor = "yellow"
+}
+
+function x(){
+    console.log('I am Key Down')
+}
+
+function y(){
+    console.log('I am Key Press')
+}
+
+function z(){
+    console.log('I am Key Up')
+}
+
+function aa(){
+    let a =["Apple","Banana","Custard","Pineapple"]
+    console.log(a)
+    console.log(a[2])
+    console.log(a.length)
+    a[3] = "Watermelon"
+    console.log(a)
+    //for of implement here
+    let myData = ""
+    for(let data of a){
+        myData += data + " "
+    }
+    console.log(myData)
+    document.getElementById("myPara").innerHTML = myData
+}
+
+<button ondblclick="def()">Double Click</button>
+        <input type="text" id="myId" onchange="xyz()" />
+        <button onmouseenter="a()" onmouseleave="b()" id="myId2">I am Mouse Event</button>
+        <input type="text" onkeydown="x()" onkeypress="y()" onkeyup="z()"  />
+        <button onclick="aa()">Array</button>
+        <p id="myPara"></p>
+
+28/06/2022
+<input type="text" onkeydown="x()" onkeypress="y()" onkeyup="z()"/>
+
+
+
+        <!-- <button onclick="myArray()" >Array</button>
+        <button onclick="myString()" >String</button>
+        <button onclick="myNumber()" >Numbers</button>
+        <button onclick="myDate()" >Date</button>
+        <p id="myId1"></p>
+        <p id="myId2"></p> -->
+
+// function myArray(){
+//     let a = ["red","yellow","orange","pink"]
+//     console.log(a.length)
+//     console.log(a[0])
+//     a.push("black")
+//     console.log(a)
+//     a.pop()
+//     console.log(a)
+//     a.shift()
+//     console.log(a)
+//     a.unshift("blue")
+//     console.log(a)
+//     a[1] = "green"
+//     console.log(a)
+//     let b = ["rebeccapurple","cyan","wheat"]
+//     let c = a.concat(b)
+//     console.log(c)
+//     console.log(c.toString())
+//     console.log(a)
+//     a.splice(1,1)
+//     console.log(a)
+//     a.splice(1,0,"grey")
+//     console.log(a)
+//     a.splice(1,0,"white","lemon")
+//     console.log(a)
+//     a.sort()
+//     console.log(a)
+//     a.reverse()
+//     console.log(a)
+// }
+
+// function myString(){
+//     let a = "UnitedKingdom"
+//     console.log(a.length)
+//     console.log(a.charAt(5))
+//     console.log(a.lastIndexOf("d"))
+//     console.log(a.indexOf("d"))
+//     let b = "Hey Hru India"
+//     console.log(b.split(" "))
+//     console.log(a.match("K"))
+//     console.log(a.replace("dom","red"))
+//     //implement for of !!
+//     //implement for in !!
+//     console.log(a.toLowerCase())
+//     console.log(a.toUpperCase())
+//     console.log(a.charCodeAt(5))    //unicode value for that character
+//     console.log(a.startsWith("K",7))
+//     let c = "Hey I\n am New Here"
+//     console.log(c)
+// }
+
+// function myNumber(){
+//     let a = 1.6754
+//     console.log(a.toString())
+//     console.log(a.toExponential(2))
+//     console.log(a.toFixed(7))
+//     console.log(Math.PI)
+//     console.log(Math.sqrt(16))
+//     console.log(Math.pow(2,2))
+//     console.log(Math.max(10,7,14,12,8))
+//     console.log(Math.min(10,7,14,12,8))
+//     console.log(Math.sin(90))
+//     console.log(Math.cos(0))
+//     console.log(Math.ceil(a))   //2
+//     console.log(Math.floor(a))  //1
+//     console.log(Math.round(a))  // <0.5 it will be 1 > 0.5 it will be 2
+//     //Secret behind ludo king
+//     console.log(Math.random())  // value from 0 to 1
+//     console.log(Math.ceil(Math.random()*6))
+// }
+
+// function myDate(){
+//     let a = new Date()
+//     console.log(a)
+//     console.log(a.getFullYear())
+//     // document.getElementById("myID").innerHTML = a.getDate()
+//     // a.getFullYear
+//     // a.getDate
+//     // a.getDay
+//     // a.getHours
+//     // a.getMilliseconds
+//     // a.getMinutes
+//     // a.getMonth
+//     // a.getSeconds
+//     // a.Time 
+//     let b = new Date()
+//     b.setDate(26)
+
+//     document.getElementById("myId2").innerHTML = b
+//     // document.getElementById("myId1").innerHTML = Date.now()
+//     a.set
+
+// }
+
+function x(){
+    console.log('I am Key Down')
+}
+
+function y(){
+    console.log('I am Key Press')
+}
+
+function z(){
+    console.log('I am Key Up')
+}
+
+28_06_2022
+
+// function abc(){
+//     let a = 5
+//     let b = 0
+//     let c
+//     try{
+//     c = a/b // 1
+//     consol.log(c)   //Error
+//     }
+//     catch(error){
+//         //console.log(error)
+//         throw error
+//     }
+//     // finally{
+//         let d = a+b
+//         console.log(d)
+//         console.log(c)
+//     // } 
+// }
+
+30_06_2022
+function def(){
+    console.log("Mars")
+}
+
+function abc(a){    //a gets the function def
+    a() // calling the function a = def
+}
+
+//abc(def)    //Callback Function
+
+
+
+// class Laptop{
+//     constructor(){
+//         this.keys = 96
+//         this.size = "14 inch"
+//         this.company = "dell"
+//         this.ram = "16 GB"
+//     }
+//     myInputL(){
+//         console.log("Hey I am myInput Method from Class Laptop")
+//         console.log(this.ram)
+//     }
+//     myChargeL(){
+//         console.log("Hey I am myCharge Method from Class Laptop")
+//     }
+// }
+// class Tablet extends Laptop{
+//     constructor(){
+//         this.keys = 99
+//         this.size = "10 inch"
+//         this.company = "Apple"
+//         this.ram = "32 GB"
+//     }
+//     myChargeT(){
+//         console.log("Hey I am myCharge Method from Apple Tab")
+//     }
+// }
+// // function def(){
+// //     let myObject1 = new Tablet()
+// //     myObject1.myCharge()
+// //     myObject1.myInput()
+// //     console.log(myObject1.keys)
+// //     console.log(myObject1.size)
+// //     }
+
+// class Mobile extends Tablet{
+//     constructor(){
+//         super()
+//         // this.keys = 105
+//         this.size = "5.1 inch"
+//         this.company = "Samsung"
+//         this.ram = "4 GB"
+//     }
+//     myInputM(){
+//         console.log("Hey I am myInput Method from Class Mobile")
+//         console.log(this.ram)
+//     }
+//     myChargeM(){
+//         console.log("Hey I am myCharge Method from Class Mobile")
+//     }
+// }
+// function abc(){
+// let myObject = new Mobile()
+// myObject.myCharge()
+// myObject.myInput()
+// console.log(myObject.keys)
+// console.log(myObject.size)
+// }
+
+// class Laptop{
+//     constructor(a,b){
+//         this.keys = a
+//         this.size = b
+//         this.company = "dell"
+//         this.ram = "16 GB"
+//     }
+//     myInput(){
+//         console.log("Hey I am myInput Method from Class Laptop")
+//         console.log(this.ram)
+//     }
+//     myCharge(){
+//         console.log("Hey I am myCharge Method from Class Laptop")
+//     }
+// }
+// function abc(){
+//     let myObject = new Laptop(96,"14 inch")
+//     myObject.myCharge()
+//     myObject.myInput()
+//     console.log(myObject.keys)
+//     console.log(myObject.size)
+//     }
+
+
+
+// class Laptop{
+//     constructor(){
+//         this.keys = 96
+//         this.size = "14 inch"
+//         this.company = "dell"
+//         this.ram = "16 GB"
+//     }
+//     myInput(){
+//         console.log("Hey I am myInput Method")
+//     }
+//     myCharge(){
+//         console.log("Hey I am myCharge Method")
+//     }
+// }
+// function abc(){
+// let myObject = new Laptop()
+// myObject.myCharge()
+// myObject.myInput()
+// console.log(myObject.ram)
+// }
+
+07/07/2022
+
+function abc(){
+    fetch('https://jsonplaceholder.typicode.com/albums') //json data
+    .then(function(a){  //accepting json data
+        return a.json() //parsing the json data, js compiler can understand it.
+    })
+    .then(function(b){ //parsed json data
+        console.log(b)
+    })     
+    .catch(function(error){
+        console.log(error)
+    })
+    
+    //100         
+}
+
+
+
+
+// async function abc(){
+//     let a = new Promise(function(resolve,reject){
+//         if(5>2)
+//             {
+//             resolve("True")
+//             }
+//         else
+//             {
+//             reject("False")
+//             }
+//     })
+//         a
+//         .then(function(){console.log('Promise Executed 1')})
+//         .then(function(){console.log('Promise Executed 2')})
+//         .catch(function(){console.log("Promise Error")})
+//     document.getElementById("myId").innerHTML = await a
+// }
+// [object promise]
+
+
+
+
+// setTimeout(function a(){console.log('I am After 5 seconds')}, 5000)
+// setTimeout(function a(){console.log('I am After 3 seconds')}, 3000)
+
+// function a(){
+//     console.log('Hey I am After 5 seconds')
+//     console.log('Hey I am After 5 seconds')
+// }
+
+// function a(){
+//     return 10
+// }
+// function b(f3) {
+//     return 5 + f3() 
+// }
+// function c (f1,f2){
+//     return 5 + f2(f1)
+// }
+// c(a,b) //20
